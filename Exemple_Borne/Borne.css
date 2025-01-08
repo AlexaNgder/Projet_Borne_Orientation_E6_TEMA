@@ -1,0 +1,110 @@
+ * {            /** Fichier CSS Rédigé par Mohamed Laddel avec l'aide de Abdelkrim **/
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #26212f;
+}
+
+.container {
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 600px; 
+  min-height: 250px;
+  border-radius: 25px;
+  padding: 30px 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qr-wrapper.hidden {
+  display: none;
+}
+
+#qr-wrapper {
+  position: absolute;
+  right: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qr-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+#qr-image-container.show-qr {
+  max-height: 300px;
+  padding: 5px;
+}
+
+#qrImage {
+  width: 160px;
+  height: 160px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.buttons-container button { 
+  width: 200px; 
+  padding: 40px; 
+  background-color: rgb(43, 116, 252);
+  color: #fff;
+  outline: none;
+  border: none; 
+  border-radius: 25px; 
+  font-size: 3rem; 
+  cursor: pointer;
+  margin: 25px; 
+}
+
+#lien1, #lien2 {
+  order: 1;
+}
+
+#lien3 {
+  align-self: flex-start; 
+  order: 2; 
+}
+
+#lien4 {
+  align-self: flex-start; 
+  order: 3; 
+}
+
+#qr-wrapper p {
+  font-size: 1.2rem;
+  color: #000;
+}
