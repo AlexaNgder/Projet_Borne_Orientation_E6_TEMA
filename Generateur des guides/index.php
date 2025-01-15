@@ -7,10 +7,9 @@
     <style>
         body {
             text-align: center;
-            margin-top: 80px;
         }
         img {
-            margin-top: 50px;
+            margin-top: 80px;
             width: 448px;
             height: 248px;
         }
@@ -19,42 +18,40 @@
             z-index: 1; 
         }
         .image-absolute {
-            position: absolute;
+            position: absolute; 
             z-index: 2; 
-            top: 280px; 
-            left: 550px; 
-            width: 180px;
+            top: 130px; 
+            left: 600px; 
+            width: 180px; 
             height: auto; 
         }
     </style>
 </head>
 <body>
+    <h1>Téléchargez une image</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <input type="submit" value="Télécharger l'image de fond">
+    </form>
 
-<h1>Téléchargez une image</h1>
-
-<form action="" method="post" enctype="multipart/form-data">
-    <input type="file" name="image" accept="image/*" required>
-    <input type="submit" value="Télécharger l'image de fond">
-</form>
-
-<form action="" method="post" enctype="multipart/form-data">
-    <input type="file" name="image2" accept="image/*" required>
-    <input type="submit" value="Télécharger l'image à superposer">
-</form>
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="image2" accept="image/*" required>
+        <input type="submit" value="Télécharger l'image à superposer">
+    </form>
 </body>
 </html>
-
 <?php
 session_start();
+$Image = "Images/";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_FILES['image'])&& isset($_FILES['image2'])) {
-        $Image_Fichier = "Images/" . basename($_FILES["image"]["name"]);
-        $Image_Fichier2 = "Images/" . basename($_FILES["image2"]["name"]);
-        if (move_uploaded_file($_FILES["image"]["tmp_name"], $Image_Fichier)&& move_uploaded_file($_FILES["image2"]["tmp_name"], $Image_Fichier2)) {
-            $_SESSION['image1'] = $Image_Fichier;
-            $_SESSION['image2'] = $Image_Fichier2; 
-        }
+    if (isset($_FILES['image']) ) {
+        $Image_Fichier = $Image . basename($_FILES["image"]["name"]);
+        $_SESSION['image1'] = $Image_Fichier; 
+    }
+    if (isset($_FILES['image2'])) {
+        $Image_Fichier2 = $Image . basename($_FILES["image2"]["name"]);
+        $_SESSION['image2'] = $Image_Fichier2; 
     }
 }
 if (isset($_SESSION['image1'])&&isset($_SESSION['image2'])) {
