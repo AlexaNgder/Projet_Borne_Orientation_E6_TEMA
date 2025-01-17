@@ -1,0 +1,143 @@
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #737476;
+	background: -moz-linear-gradient(top, #737476 0%, #9ea0a3 100%); 
+	font-family: Helvetica, Arial sans-serif;
+}
+
+#formulaire {
+position: absolute;
+top: 75px;
+left: 700px;
+width: 500px; 
+margin: 50px auto; 
+padding:0 0 30px 0;
+/* couleur de fond */
+background: #39393b;
+/* ombre portee */
+box-shadow: 0px 0px 8px #444;
+}
+
+h1 {
+	/* styles de caracteres */
+	font-size: 25px; 
+	font-weight:200;
+	color: #40427f; 
+	text-align: center; 
+	text-shadow: 0px 1px 0px #f2f2f2;
+	/* marges et bordures */
+	padding:20px;
+	margin: 0 0 30px 0;
+	border-bottom:1px solid #777879;
+	/* couleur de fond */
+	background: #f1f2f6;
+	background: linear-gradient(top, #f1f2f6 0%, #d5d8dd 100%);
+}
+
+label {
+	/* positionnement marge et taille */
+	float: left; 
+	clear: left; 
+	margin: 10px 20px 0 0; 
+	width: 150px;
+	/* styles de caracteres */
+	font-size: 14px; 
+	color: #445668;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	text-align: right; 
+}
+
+input {
+	/* styles de caracteres */
+	font-size: 14px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	/* marge taille et ombre port�e */
+	width: 270px; 
+	height: 35px; 
+	padding: 5px 10px 0px 10px; 
+	margin: 0 0 20px 0;
+	box-shadow: 0px 1px 0px #f2f2f2;
+	/* couleur de fond */
+	background: #f1f2f4;
+	background: linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	/* bordures */
+	border:1px solid #b6b7b9;
+	border-radius: 5px;	
+}
+
+input:placeholder {
+	    color: #91938b; 
+		text-shadow: 0px -1px 0px #38506b;
+}
+
+textarea {
+	/* styles de caracteres */
+	font-size: 14px; 
+	color: #4b4b4b; 
+	text-shadow: 1px 1px 0px #e8eade;
+	font-family:Sans-serif;
+	/* marge taille et ombre portee */
+	width: 270px; 
+	height: 80px; 
+	padding: 10px 10px 0px 10px; 
+	margin: 0 0 20px 0;
+	box-shadow: 0px 1px 0px #f2f2f2;
+	/* couleur de fond */
+	background: #f1f2f4;
+	background: linear-gradient(top, #f1f2f4 0%, #f8f9fb 20%);
+	/* bordures */
+	border:1px solid #b6b7b9;
+	border-radius: 5px;
+}
+	textarea::-webkit-input-placeholder  {
+    	color: #91938b; 
+		text-shadow: 0px -1px 0px #38506b;
+	}
+	textarea:-moz-placeholder {
+	    color: #91938b; 
+		text-shadow: 0px -1px 0px #38506b;
+	}
+
+input:focus, textarea:focus {
+	background: #d9dadc;
+	background: linear-gradient(top, #adafb2 0%, #bec0c3 20%); /* firefox */
+	box-shadow: 0px 0px 5px #d5d6d8;
+}
+
+input[type=submit] {
+	/* position taille marges */
+	float: right; 
+	cursor: pointer;
+	width: 160px;
+	height: 42px; 
+	padding: 5px 10px; 
+	margin: 0 40px 0 0;
+	/* coins arrondies */
+	border: 1px solid #275682;
+	border-radius: 50px;
+	border-radius: 50px; 	
+	/* degrade de fond */
+	background: linear-gradient(rgb(118, 140, 236), skyblue);
+	/* ombre portee */
+	box-shadow: 0px 0px 5px #999;
+	/* styles de texte */
+	color:#effaff;
+	text-shadow:1px -1px 0px #43708f;
+	font-weight:bold;
+}
+input[type=submit]:hover {
+	border: 1px solid #1a3957;
+	background: linear-gradient(rgb(73, 96, 199), rgb(103, 162, 185));
+}
+input[type=submit]:active {
+	box-shadow: 0px -1px 5px #999;
+	background: linear-gradient(rgb(21, 34, 93), rgb(103, 162, 185));
+}

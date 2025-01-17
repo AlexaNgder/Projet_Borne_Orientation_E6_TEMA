@@ -1,0 +1,17 @@
+I= C.dU(t)/d(t)
+Ur=R.I
+E=RC*dU(t)/d(t)+Uc
+
+Montrer que Uc(t) =E.(1-e^t/RC)
+
+Uc = E-Ee^-t/RC
+dU(t)/d(t) = 0 +E*(1/RC)e^-1/RC*t
+
+(e^u) = u'e^u
+u=-t/RC = -1/RC*t
+u'=-1/RC
+
+
+E = 0 +E*(1/RC)e^-1/RC*t + E-Ee^-t/RC
+E= Ee^-t/RC +E -Ee^-t/RC
+E=E

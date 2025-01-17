@@ -1,0 +1,14 @@
+1/ apt-get install libmysqlclient-dev
+
+
+2/ faire un include <mysql/mysql.h>
+
+3/ compiler avec: (changer les noms sauf pour dernier )
+gcc sourcecode.c -o monexecut -lmysqlclient
+
+4/ ca devrait marcher en executant:
+./monexecut
+
+si pas d'erreur dans votre code et que votre bdd existe bel et bien
+que vos login et mdp soit bons
+etc...
