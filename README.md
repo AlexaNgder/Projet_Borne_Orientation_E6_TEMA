@@ -26,8 +26,6 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 
 ## 🤝 Équipe
 
-## 🤝 Équipe
-
 <table>
   <thead>
     <tr>
@@ -39,28 +37,28 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://github.com/matthieucaviggia.png?size=32" alt="Matthieu Caviggia" style="width:32px; height:32px; border-radius:4px;" />
+        <img src="https://github.com/matthieucaviggia.png?size=32" alt="Matthieu Caviggia" style="width:40px; height:40px; border-radius:4px;" />
       </td>
       <td><strong>Matthieu Caviggia</strong></td>
       <td>Front-end (Bootstrap, QR-Code, Raspberry Pi)</td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github.com/tonybarelli.png?size=32" alt="Tony Barelli" style="width:32px; height:32px; border-radius:4px;" />
+        <img src="https://github.com/Anthony19-20.png?size=32" alt="Tony Barelli" style="width:40px; height:40px; border-radius:4px;" />
       </td>
       <td><strong>Tony Barelli</strong></td>
       <td>Full-stack (PHP, base de données, interface)</td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github.com/AlexaNgder.png?size=32" alt="Alex Nguyen" style="width:32px; height:32px; border-radius:4px;" />
+        <img src="https://github.com/AlexaNgder.png?size=32" alt="Alex Nguyen" style="width:40px; height:40px; border-radius:4px;" />
       </td>
       <td><strong>Alex Nguyen</strong></td>
       <td>Full-stack (PHP Canvas, mailing, déploiement)</td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github.com/evanbonnal.png?size=32" alt="Evan Bonnal" style="width:32px; height:32px; border-radius:4px;" />
+        <img src="https://github.com/evanbonnal.png?size=32" alt="Evan Bonnal" style="width:40px; height:40px; border-radius:4px;" />
       </td>
       <td><strong>Evan Bonnal</strong></td>
       <td>Full-stack (Token, sessions, stats Chart)</td>
