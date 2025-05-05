@@ -1,17 +1,10 @@
 # 📍 Borne d’Orientation – Projet TEMA
 
-> **Titre :** Conception d’un dispositif d’orientation des usagers dans le cadre d’un salon professionnel
->  
-> **Auteur :** TEMA  (Tony Barelli, Evan Bonnal, Matthieu Caviggia, Alex Nguyen)
-<<<<<<< Updated upstream
-> 
-> **Contexte :** BTS Cybersécurité, Informatique et réseaux, Électronique option A Informatique et Réseaux (CIEL IR)
-> 
-=======
-> **Contexte :** BTS cybersécurité, informatique et réseaux, électronique option A informatique et réseaux (CIEL IR)  
->>>>>>> Stashed changes
-> **Période :** 2025  
-> **Établissement :** Lycée Rempart-Vinci 
+> **Titre :** Conception d’un dispositif d’orientation des usagers dans le cadre d’un salon professionnel  
+> **Auteur :** TEMA  (Tony Barelli, Evan Bonnal, Matthieu Caviggia, Alex Nguyen)  
+> **formation :** BTS cybersécurité, informatique et réseaux, électronique option A informatique et réseaux (CIEL IR)  
+> **Période :** janvier – fin mai 2025 (10 semaines)  
+> **Établissement :** Lycée Rempart-Vinci  
 
 ---
 
@@ -40,15 +33,19 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 | Alex Nguyen       | Full-stack (PHP Canvas, mailing, déploiement)  |
 | Evan Bonnal       | Full-stack (token, sessions, stats Chart)      |
 
+| **GitHub**                                   |
+|----------------------------------------------|
+| [@Tony](https://github.com/tonyGit)          |
+| [@Evan](https://github.com/evanGit)          |
+| [@Matthieu](https://github.com/matthGit)     |
+| [@AlexaNgder](https://github.com/AlexaNgder) |
+
+
 ---
 
 ## 📅 Planning & Diagramme de Gantt 2025
 
 <section>
-<<<<<<< HEAD
-  <h2 align="center">📅 Planning & Diagramme de Gantt</h2>
-=======
->>>>>>> 05c1b8b (change variable)
   <p align="center">
     Pour mieux visualiser la répartition des tâches et leur avancement, consultez notre diagramme de Gantt :
   </p>
@@ -80,7 +77,6 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
     Ces cinq diagrammes offrent une vue d’ensemble de notre borne d’orientation :
   </p>
   <ul style="list-style-type: none; padding: 0; max-width: 800px; margin: auto;">
-    <!-- Cas d'utilisation -->
     <li style="margin-bottom: 2em;">
       <h3 style="text-align: center;">Diagramme de cas d’utilisation UML</h3>
       <p style="text-align: justify;">
@@ -158,7 +154,6 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 
 ---
 
-
 ## 🚀 Fonctionnalités clés
 
 | Fonctionnalité                        | Détail                                                                                   |
@@ -166,13 +161,9 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 | **Sélection de formation**            | Écran tactile responsive basé sur Bootstrap                                              |
 | **Génération QR-Code**                | Création dynamique d’un QR-Code via JavaScript                                           |
 | **Module de guidage**                 | Superposition de flèches/images sur plan via PHP & HTML5 Canvas                          |
-| **Lecture multimédia**                | Déclenchement audio/vidéo une fois arrivé à destination                                  |
+| **Collecte des données**              | Exportation Excel via PHP des données clients et statistiques de visites par heure       |
 | **Newsletter & e-mails**              | Abonnement par formulaire + envoi via PHPMailer et serveur SMTP IONOS                    |
-<<<<<<< HEAD
-| **Authentification administrateur**   | Contrôle d’accès par session PHP + badge RFID                                            |
-=======
 | **Authentification administrateur**   | Contrôle d’accès par session PHP  + tokenisation en PHP                                  |
->>>>>>> 05c1b8b (change variable)
 | **Statistiques de visite**            | Suivi et affichage du nombre de scans/visites par heure                                  |
 
 ---
@@ -202,7 +193,7 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 │   ├── vendor/                         # Dépendances gérées par Composer (librairies tierces)
 │   ├── index.php                       # Page d’entrée principale avec formulaire de login
 │   ├── schema.sql                      # Structure de la base de données 
-│   └── ...                             # Autres fichiers pour Admin (statistiques, export Excel, etc.)
+│   └── ...                             # Autres fichiers pour Admin/Parcours (statistiques, export Excel, etc.)
 │
 ├── Rapport de projet/                  # Dossier de documentation, livrables et illustrations
 │   ├── Diag cas d’utilisation.png      # Diagramme UML des cas d’utilisation du système
@@ -213,13 +204,10 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 │   ├── Rapport de projet E6.pdf        # Rapport complet pour l’épreuve E6 
 │   └── Synoptique du projet.png        # Vue d’ensemble de l’architecture matérielle et logicielle
 │
-├── LICENSE                             # Détail de la licence d’utilisation du code (MIT, GPL, etc.)
+├── LICENSE                             # Détail de la licence d’utilisation du code (MIT)
 └── README.md                           # Fichier d’introduction et de présentation du projet sur GitHub
 
 ```
-
----
-
 ## 🛠️ Installation & Déploiement
 
 1. **Cloner** le dépôt Git
