@@ -26,20 +26,47 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 
 ## 🤝 Équipe
 
-| **Membre**        | **Rôle**                                       |
-| ----------------- | ---------------------------------------------- |
-| Matthieu Caviggia | Front-end (Bootstrap, QR-Code, Raspberry Pi)   |
-| Tony Barelli      | Full-stack (PHP, base de données, interface)   |
-| Alex Nguyen       | Full-stack (PHP Canvas, mailing, déploiement)  |
-| Evan Bonnal       | Full-stack (token, sessions, stats Chart)      |
+## 🤝 Équipe
 
-| **GitHub**                                   |
-|----------------------------------------------|
-| [@Tony](https://github.com/tonyGit)          |
-| [@Evan](https://github.com/evanGit)          |
-| [@Matthieu](https://github.com/matthGit)     |
-| [@AlexaNgder](https://github.com/AlexaNgder) |
-
+<table>
+  <thead>
+    <tr>
+      <th>Photo</th>
+      <th>Membre</th>
+      <th>Rôle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/matthieucaviggia.png?size=32" alt="Matthieu Caviggia" style="width:32px; height:32px; border-radius:4px;" />
+      </td>
+      <td><strong>Matthieu Caviggia</strong></td>
+      <td>Front-end (Bootstrap, QR-Code, Raspberry Pi)</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/tonybarelli.png?size=32" alt="Tony Barelli" style="width:32px; height:32px; border-radius:4px;" />
+      </td>
+      <td><strong>Tony Barelli</strong></td>
+      <td>Full-stack (PHP, base de données, interface)</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/AlexaNgder.png?size=32" alt="Alex Nguyen" style="width:32px; height:32px; border-radius:4px;" />
+      </td>
+      <td><strong>Alex Nguyen</strong></td>
+      <td>Full-stack (PHP Canvas, mailing, déploiement)</td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/evanbonnal.png?size=32" alt="Evan Bonnal" style="width:32px; height:32px; border-radius:4px;" />
+      </td>
+      <td><strong>Evan Bonnal</strong></td>
+      <td>Full-stack (Token, sessions, stats Chart)</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
