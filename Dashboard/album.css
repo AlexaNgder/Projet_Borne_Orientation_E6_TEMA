@@ -1,0 +1,169 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#qr-wrapper.hidden {
+  display: none;
+}
+
+#qr-wrapper {
+  position: absolute;
+  right: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qr-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+#qr-image-container.show-qr {
+  max-height: 300px;
+  padding: 5px;
+}
+
+#qrImage {
+  width: 160px;
+  height: 160px;
+}
+
+.content-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.body-accueil {
+  background-image: url(images/rempart.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  display: flex;
+  flex-wrap: wrap;
+  content: center;
+  align-items: center; 
+  justify-content: center;
+  
+  
+}
+
+.buttons-container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  content: center;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+.buttons-container button { 
+  width: 200px; 
+  padding: 40px;
+  background-size: cover;
+  background-color: #fd8888;
+  color: #ffffff;
+  outline: none;
+  border: none; 
+  border-radius: 50px;
+  font-size: 3rem; 
+  cursor: pointer;
+
+}
+
+.buttons-container_2 button { 
+  width: 200px; 
+  padding: 40px;
+  position: relative;
+  top: 500px; left: 0px; 
+  background-size: cover;
+  background-color: #fd8888;
+  color: #ffffff;
+  outline: none;
+  border: none; 
+  border-radius: 50px;
+  font-size: 3rem; 
+  cursor: pointer;
+
+}
+
+#lien1 {
+  order: 1;
+  display: flex;
+  content: center;
+  align-items: center; 
+  justify-content: center;
+  width: 100%; 
+  height: 100%;
+  background-repeat: no-repeat;
+}
+#lien2{
+  order: 1;
+
+  
+
+}
+#lien3 {
+  align-self: flex-start; 
+  order: 2; 
+}
+
+#lien4 {
+  align-self: flex-start; 
+  order: 3; 
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+

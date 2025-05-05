@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Contact</h1>
+      <p>Si vous êtes intéressé par notre établissement et une de ses filières, veuillez compléter ce formulaire ci-dessous.</p>
+      <form id="frmContact" name="frmContact" method="post" action="merci.php">
+        <fieldset class="mb-4">
+          <legend><strong>Informations personnelles</strong></legend>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="Nom" class="form-label">Nom</label>
+              <input name="Nom" type="text" class="form-control" id="Nom" required>
+            </div>
+            <div class="col-md-6">
+              <label for="Prenom" class="form-label">Prénom</label>
+              <input name="Prenom" type="text" class="form-control" id="Prenom" required>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="Email" class="form-label">E-Mail</label>
+              <input name="Email" type="email" class="form-control" id="Email" required>
+            </div>
+            <div class="col-md-6">
+              <label for="Telephone" class="form-label">Téléphone</label>
+              <input name="Telephone" type="tel" class="form-control" id="Telephone" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="Adresse" class="form-label">Adresse</label>
+            <input name="Adresse" type="text" class="form-control" id="Adresse" required>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="Department" class="form-label">Département</label>
+              <select name="Department" id="Department" class="form-select" required>
+                <option value="01">Ain</option>
+                <option value="02">Aisne</option>
+                <option value="03">Allier</option>
+                <option value="04">Alpes de Haute Provence</option>
+                <option value="06">Alpes-Maritimes</option>
+                <option value="07">Ardèche</option>
+                <option value="09">Ariège</option>
+                <option value="10">Aube</option>
+                <option value="11">Aude</option>
+                <option value="12">Aveyron</option>
+                <option value="67">Bas-Rhin</option>
+                <option value="13">Bouche-du-Rhône</option>
+                <option value="14">Calvados</option>
+                <option value="15">Cantal</option>
+                <option value="16">Charente</option>
+                <option value="17">Charente-Maritime</option>
+                <option value="18">Cher</option>
+                <option value="19">Corrèze</option>
+                <option value="2A">Corse-du-Sud</option>
+                <option value="23">Creuse</option>
+                <option value="21">Côte-d'Or</option>
+                <option value="22">Côte-d'Armor</option>
+                <option value="79">Deux-sèvres</option>
+                <option value="24">Dordogne</option>
+                <option value="25">Doubs</option>
+                <option value="26">Drôme</option>
+                <option value="91">Essonne</option>
+                <option value="27">Eure</option>
+                <option value="28">Eure-et-Loir</option>
+                <option value="29">Finistère</option>
+                <option value="30">Gard</option>
+                <option value="32">Gers</option>
+                <option value="33">Gironde</option>
+                <option value="971">Guadeloupe</option>
+                <option value="973">Guyane</option>
+                <option value="68">Haut-Rhin</option>
+                <option value="2B">Haute-Corse</option>
+                <option value="31">Haute-Garonne</option>
+                <option value="43">Haute-Loire</option>
+                <option value="52">Haute-Marne</option>
+                <option value="74">Haute-Savoie</option>
+                <option value="70">Haute-Saône</option>
+                <option value="87">Haute-Vienne</option>
+                <option value="05">Hautes-Alpes</option>
+                <option value="65">Hautes-Pyrénées</option>
+                <option value="92">Hauts-de-Seine</option>
+                <option value="34">Hérauintéresselt</option>
+                <option value="35">Ille-et-Vilaine</option>
+                <option value="36">Indre</option>
+                <option value="37">Indre-et-Loire</option>
+                <option value="38">Isère</option>
+                <option value="39">Jura</option>
+                <option value="974">La Réunion</option>
+                <option value="40">Landes</option>
+                <option value="41">Loir-et-cher</option>
+                <option value="42">Loire</option>
+                <option value="44">Loire-Atlantique</option>
+                <option value="45">Loiret</option>
+                <option value="46">Lot</option>
+                <option value="47">Lot-et-Garonne</option>
+                <option value="48">Lozère</option>
+                <option value="49">Maine-et-Loire</option>
+                <option value="50">Manche</option>
+                <option value="51">Marne</option>
+                <option value="972">Martinique</option>
+                <option value="53">Mayenne</option>
+                <option value="976">Mayotte</option>
+                <option value="54">Meurthe-et-Moselle</option>
+                <option value="55">Meuse</option>
+                <option value="56">Morbihan</option>
+                <option value="57">Moselle</option>
+                <option value="58">Nièvre</option>
+                <option value="59">Nord</option>
+                <option value="60">Oise</option>
+                <option value="61">Orne</option>
+                <option value="75">Paris</option>
+                <option value="62">Pas-de-Calais</option>
+                <option value="63">Puy-de-Dôme</option>
+                <option value="64">Pyrénées-Atlantique</option>
+                <option value="66">Pyrénées-Oriantale</option>
+                <option value="69">Rhône</option>
+                <option value="72">Sarthe</option>
+                <option value="73">Savoie</option>
+                <option value="77">Seine-et-Marne</option>
+                <option value="76">Seine-Maritime</option>
+                <option value="93">Seine-Saint-Denis</option>
+                <option value="80">Somme</option>
+                <option value="81">Tarn</option>
+                <option value="82">Tarn-et-Garonne</option>
+                <option value="90">Territoire de Belfort</option>
+                <option value="95">Val-d'Oise</option>
+                <option value="94">Val-de-Marne</option>
+                <option value="83">Var</option>
+                <option value="84">Vaucluse</option>
+                <option value="85">Vendée</option>
+                <option value="86">Vienne</option>
+                <option value="88">Vosges</option>
+                <option value="89">Yonne</option>
+                <option value="78">Yvelines</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="Code" class="form-label">Code postal</label>
+              <input name="Code" type="text" class="form-control" id="Code" required>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="mb-4">
+          <legend><strong>Informations BTS</strong></legend>
+          <p>Quelle(s) filière(s) vous intéresse ?</p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="CIEL" name="CIEL">
+                <label class="form-check-label" for="CIEL">BTS CIEL</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="ET" name="ET">
+                <label class="form-check-label" for="ET">BTS ET</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="ATI" name="ATI">
+                <label class="form-check-label" for="ATI">BTS ATI</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="CCST" name="CCST">
+                <label class="form-check-label" for="CCST">BTS CCST</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="CRSA" name="CRSA">
+                <label class="form-check-label" for="CRSA">BTS CRSA</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="Pour_tous" name="Pour_tous">
+                <label class="form-check-label" for="Pour_tous">Pour tous</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <div id="footerMenu">
+            <h3><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/">Site de l'établissement</a></h3>
+            <ul id="quickNav" class="list-unstyled">
+              <li><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/spip.php?article23">BTS ATI</a></li>
+              <li><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/spip.php?article27">BTS CIEL</a></li>
+              <li><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/spip.php?article24">BTS CCST</a></li>
+              <li><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/spip.php?article25">BTS CRSA</a></li>
+              <li><a href="https://www.site.ac-aix-marseille.fr/lyc-rempart/spip/spip.php?article26">BTS ET</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <h1>Lycée Polyvalent Rempart-Vinci</h1>
+          <p id="adr">8 Rue du Rempart</p>
+          <h2>04.91.14.01.40</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div id="scrollUp" class="hidden">
+        <a href="#top"><img src="to_top.png" alt="Scroll to top"/></a>
+    </div>
+  </body>
+  <style>
+    #adr{
+      color: #005266;
+    }
+    a {
+      color: #005266;
+      text-decoration: none;
+    }
+    h1, h2 {
+      color: #005266;
+    }
+    #scrollUp {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      opacity: 0.5;
+      transition: right 0.5s ease, opacity 0.5s ease;
+    }
+    body {
+      background-image: url('/Images/Rempart.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .container {
+      background-color: #ffffffcc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</html>
