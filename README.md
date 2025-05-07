@@ -24,12 +24,72 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
 
 ---
 
+## 🎬 Démonstrations en GIF
+
+### 1. Parcours utilisateur et abonnement  
+<p>
+  Dans cette animation, on clique sur une formation depuis le dashboard, puis on scanne le QR-Code avec un smartphone.  
+  Le site de guidage s’ouvre et vous oriente visuellement vers la salle de formation.  
+  En bas de la page, nous proposons un bouton « Recevoir des informations » :  
+  l’utilisateur remplit un court formulaire et reçoit ensuite les plaquettes PDF des BTS proposés.
+</p>
+<p align="center">
+  <img src="./Rapport de projet/demo-dashboard.gif" alt="Démo Dashboard et guidage" />
+</p>
+
+---
+
+### 2. Réception de la plaquette par e-mail  
+<p>
+  Ici, on voit la boîte mail s’ouvrir après l’envoi automatique du système.  
+  Le visiteur reçoit une plaquette BTS au format PDF en pièce jointe, prête à être consultée ou partagée.
+</p>
+<p align="center">
+  <img src="./Rapport de projet/demo-mail.gif" alt="Démo réception de mail avec plaquette PDF" />
+</p>
+
+
+---
+
+### 3. Authentification et statistiques  
+<p>
+  Cette animation illustre le processus d’authentification par login/MDP pour accéder au module « Statistiques ».  
+  On y affiche le nombre de visites par heure, la moyenne, le maximum, le minimum et le total.  
+  Un bouton permet d’exporter ces données au format Excel.  
+  Enfin, un onglet « Clients » liste les formulaires remplis (nom, prénom, e-mail, etc.) avec possibilité de rechercher et d’exporter les résultats,  
+  idéal pour le suivi des visiteurs sur Parcoursup ou lors des JPO.
+</p>
+<p align="center">
+  <img src="./Rapport de projet/demo-stats.gif" alt="Démo authentification et statistiques" />
+</p>
+
+
+---
+
+### 4. Conception d’un générateur d’itinéraires  
+<p>
+  Ce module local permet aux administrateurs de charger un plan, d’ajouter dynamiquement des flèches et pictogrammes,  
+  puis d’ajuster leur position en temps réel avant de télécharger l’itinéraire final au format image, avec possibilité de renommer le fichier.  
+  Grâce à une interface épurée en PHP et JavaScript, ils bénéficient d’un aperçu instantané et d’un export direct  
+  pour une intégration fluide dans le module de guidage BTS.
+</p>
+
+> **Manuel d’utilisation**  
+> Pour consulter la documentation détaillée de cet outil, exportez le dépôt Git puis ouvrez  
+> `Projet_Borne_Orientation_E6_TEMA/Rapport de projet/Rapport de projet E6 NGUYEN Alex.pdf` à la page 46. 
+
+<p align="center">
+  <img src="./Rapport de projet/Générateur_de_guide_demo.gif" alt="Démo authentification et statistiques" />
+</p>
+
+---
+
 ## 🤝 Équipe
 
 <table>
   <thead>
     <tr>
-      <th>Photo</th>
+      <th>Avatar</th>
       <th>Membre</th>
       <th>Rôle</th>
     </tr>
@@ -37,7 +97,7 @@ L’objectif à long terme est d’optimiser l’accessibilité des personnes en
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://github.com/matthieucaviggia.png?size=32" alt="Matthieu Caviggia" style="width:40px; height:40px; border-radius:4px;" />
+        <img src="https://github.com/Cavigus.png?size=32" alt="Matthieu Caviggia" style="width:40px; height:40px; border-radius:4px;" />
       </td>
       <td><strong>Matthieu Caviggia</strong></td>
       <td>Front-end (Bootstrap, QR-Code, Raspberry Pi)</td>
